@@ -1,0 +1,12 @@
+displayName: Filter Plugin
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/endless001/filter
+
+summary: '[Filter] Add Request Header'
+
+testData:
+  Headers:
+    X-Demo: test
+    X-URL: '{{URL}}'
